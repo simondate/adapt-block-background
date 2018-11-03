@@ -51,7 +51,6 @@
                   "title": "Background image (Mobile)",
                   "default": "",
                   "inputType": "Asset:image",
-                  "validators": ["required"],
                   "help": "The background image you want shown for this block when the course is viewed at mobile resolution"
                 },
                 "src": {
@@ -60,7 +59,6 @@
                   "title": "Background image (Desktop)",
                   "default": "",
                   "inputType": "Asset:image",
-                  "validators": ["required"],
                   "help": "The background image you want shown for this block when the course is viewed at desktop resolution"
                 },
                 "mobileBannerHeight": {
