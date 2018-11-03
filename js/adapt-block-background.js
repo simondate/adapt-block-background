@@ -38,7 +38,7 @@ define([
 
       for (var i = 0, l = this._blockModels.length; i < l; i++) {
         var blockModel = this._blockModels[i];
-        if (!blockModel.get('_blockBackground')) continue;
+        if (!blockModel.get('_blockBackground') || !blockModel.get('_blockBackground').src) continue;
 
         var id = blockModel.get("_id");
 
